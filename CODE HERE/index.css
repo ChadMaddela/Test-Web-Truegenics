@@ -1,0 +1,449 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    width: 7.3125rem; /* 117px */
+    height: 4.4375rem; /* 71px */    
+}
+
+#navbar {
+    margin-left: 3.375rem; /* 54px */
+    padding-top: 1.3125rem; /* 21px */
+}
+
+.navbar-logo {
+    width: 100px;
+    height: auto;
+}
+
+.navlink {
+    font-family: "DM Sans";
+    font-size: 1.125rem; /* 18px */
+    font-weight: bold;
+    font-style: normal;
+    color: #151515;
+}
+
+#getnow {
+    color: #ffffff;
+    padding: 0.8125rem 1.25rem 0.6875rem 1.25rem; /* 13px, 20px, 11px, 20px */
+    border-color: #cb5728;
+    border-width: 0.0625rem; /* 1px */
+    border-style: solid;
+    border-radius: 1.875rem; /* 30px */
+    background: #cb5728;
+}
+
+#landing {
+    background-image: url('../export/hero-banner.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+    #landing {
+        background-image: url('../export/hero-banner-mob.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.landing-header {
+    font-size: 3.75rem; /* 60px */
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.highlight {
+    color: #CB5728;
+}
+
+.landing-caption {
+    margin-top: 1.3125rem; /* 21px */
+    font-size: 1.5rem; /* 24px */
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.landing-image {
+    margin-top: 2.625rem; /* 42px */
+}
+
+.img {
+    width: 4.3125rem; /* 69px */
+    height: 4.3125rem; /* 69px */
+}
+
+.caption1 {
+    padding-top: 1.125rem; /* 18px */
+    text-align: center;
+    font-size: 1.125rem; /* 18px */
+    font-weight: 500;
+    line-height: 1.25rem; /* 20px */
+    font-style: normal;
+    color: #151515;
+}
+
+.relieve {
+    width: 31.25rem; /* 500px */
+    height: 4.375rem; /* 70px */
+    border-radius: 3.125rem; /* 50px */
+    background: #cb5728;
+    font-size: 1.625rem; /* 26px */
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.as-seen {
+    margin-top: 1.1875rem; /* 19px */
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #151515;
+}
+
+.as-seen-img {
+    width: 12.0625rem; /* 193px */
+    height: 1.875rem; /* 30px */
+}
+
+.stars {
+    width: 7.5rem; /* 120px */
+}
+
+#reviews {
+    padding-top: 5.25rem; /* 84px */
+    align-items: center;
+    height: 34.625rem; /* 554px */
+    border-radius: 0.3125rem; /* 5px */
+    background: #f6f4f0;
+}
+
+.review-head {
+    margin-top: 1.1875rem; /* 19px */
+    width: 54rem; /* 864px */
+    height: 2.8125rem; /* 45px */
+    font-family: "DM Sans";
+    font-size: 2.5rem; /* 40px */
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #151515;
+}
+
+.mirror-image {
+    margin-right: 6rem; /* 96px */
+    padding: 1.0625rem 0.9375rem 1.0625rem 0.9375rem; /* 17px 15px 17px 15px */
+    transform: scaleX(-1);
+    width: 2.75rem; /* 44px */
+    height: 3rem; /* 48px */
+    border-radius: 0.3125rem; /* 5px */
+    filter: drop-shadow(0rem 0.1875rem 0.1875rem rgba(0,0,0,0.16));
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    margin-left: 6rem; /* 96px */
+    padding: 1.0625rem 0.9375rem 1.0625rem 0.9375rem; /* 17px 15px 17px 15px */
+    width: 2.75rem; /* 44px */
+    height: 3rem; /* 48px */
+    border-radius: 0.3125rem; /* 5px */
+    filter: drop-shadow(0rem 0.1875rem 0.1875rem rgba(0,0,0,0.16));
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullreview {
+    margin: 3.3125rem 3.1875rem 0 4.9375rem; /* 53px 51px 0 79px */
+    width: 45.875rem; /* 734px */
+    height: 8rem; /* 128px */
+    font-family: "DM Sans";
+    font-size: 1.375rem; /* 22px */
+    font-weight: normal;
+    line-height: 2.125rem; /* 34px */
+    font-style: normal;
+    text-align: center;
+    color: #151515;
+}
+
+.verified-user {
+    margin-top: 2.75rem; /* 44px */
+}
+
+.verified-user > p {
+    margin-top: 0.1875rem; /* 3px */
+    color: #939292;
+}
+
+.review-img {
+    width: 5.8125rem; /* 93px */
+    height: 5.75rem; /* 92px */
+}
+
+.review1 {
+    padding-top: 7.8125rem; /* 125px */
+    margin-bottom: 4.4375rem; /* 71px */
+}
+
+.review1-img {
+    width: 43.125rem; /* 690px */
+    height: 43.125rem; /* 690px */
+}
+
+.icon-no1 {
+    position: absolute;
+    width: 2.5rem; /* 40px */
+    height: 2.5625rem; /* 41px */
+    padding: 0.625rem 0.625rem 0 0; /* 10px 10px 0 0 */
+    margin: 0;
+}
+
+.title1 {
+    margin: 0 0 0 3.125rem; /* 50px */
+    font-family: "DM Sans";
+    font-size: 3.375rem; /* 54px */
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.content1 {
+    margin-top: 1.875rem; /* 30px */
+    font-family: "DM Sans";
+    font-size: 1.375rem; /* 22px */
+    font-weight: normal;
+    line-height: 2.125rem; /* 34px */
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.review-stars {
+    padding: 2.125rem 1.25rem 2.125rem 2.25rem; /* 34px 20px 34px 36px */
+    margin: 2.0625rem 0 2.0625rem 0; /* 33px 0 33px 0 */
+    border-radius: 0.3125rem; /* 5px */
+    background: #f6f4f0;
+}
+
+.review-stars > .review1 {
+    padding: 1.6875rem 0 1.875rem 0; /* 27px 0 30px 0 */
+}
+
+.testimonial1 {
+    margin: 1.6875rem 0 1.875rem 0; /* 27px 0 30px 0 */
+    font-family: "DM Sans";
+    font-size: 1.375rem; /* 22px */
+    font-weight: normal;
+    line-height: 2.125rem; /* 34px */
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.name1 {
+    font-family: "DM Sans";
+    font-size: 1.375rem; /* 22px */
+    font-weight: 500;
+    line-height: 2.125rem; /* 34px */
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.review-arrow {
+    width: 1.15rem; /* 18.4px */
+    height: 0.95rem; /* 15.2px */
+}
+
+.review-link {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    font-family: "DM Sans";
+    font-size: 1.375rem; /* 22px */
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.review2 {
+    background: #f8f7f6;
+}
+
+.review22 {
+    padding: 4.6875rem 0 5rem 0; /* 75px 0 80px 0 */
+}
+
+.review-stars2 {
+    padding: 2.125rem 1.25rem 2.125rem 2.25rem; /* 34px 20px 34px 36px */
+    margin: 2.0625rem 0 2.0625rem 0; /* 33px 0 33px 0 */
+    border-radius: 0.3125rem; /* 5px */
+    background: #ffffff;
+}
+
+.review-stars2 > .review1 {
+    padding: 1.6875rem 0 1.875rem 0; /* 27px 0 30px 0 */
+}
+
+.soothing-extracts {
+    background: #f6f4f0;
+    margin-bottom: 3.8125rem; /* 61px */
+}
+
+.extracts-header {
+    padding: 3.125rem 0 3.5625rem 0; /* 50px 0 57px 0 */
+    width: 50.75rem; /* 812px */
+    font-size: 3.375rem; /* 54px */
+    font-weight: normal;
+    font-style: normal;
+    color: #151515;
+    text-align: center;
+}
+
+.se-card {
+    margin-bottom: 1.25rem; /* 20px */
+}
+
+.se-img {
+    padding: 0.625rem; /* 10px */
+    width: 26.875rem; /* 430px */
+    height: 26.875rem; /* 430px */
+}
+
+.se-title {
+    padding: 0.625rem; /* 10px */
+    width: 27rem; /* 432px */
+    height: 1.8125rem; /* 29px */
+    font-family: "DM Sans";
+    font-size: 1.375rem; /* 22px */
+    font-weight: bold;
+    line-height: 2.125rem; /* 34px */
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.se-description {
+    padding: 0.625rem 0.3125rem 0.3125rem 0.625rem; /* 10px 5px 5px 10px */
+    width: 27.25rem; /* 436px */
+    height: 8.625rem; /* 138px */
+    font-family: "DM Sans";
+    font-size: 1.375rem; /* 22px */
+    font-weight: normal;
+    line-height: 2.125rem; /* 34px */
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.guarantee-class {
+    align-items: center;
+    justify-content: center;
+}
+
+.guarantee-title1 {
+    font-family: "DM Sans";
+    font-size: 1.625rem; /* 26px */
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #cb5728;
+}
+
+.guarantee-title2 {
+    width: 50.75rem; /* 812px */
+    height: 4.5rem; /* 72px */
+    font-size: 3.375rem; /* 54px */
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #151515;
+}
+
+.guarantee-img {
+    height: 37.5rem; /* 600px */
+    max-width: 120rem; /* 1920px */
+}
+
+.faq-class {
+    background: #f6f4f0;
+}
+
+.faq-title {
+    margin: 6.75rem 0 4.375rem 0; /* 108px 0 70px 0 */
+    width: 72.0625rem; /* 1153px */
+    height: 3.8125rem; /* 61px */
+    font-family: "DM Sans";
+    font-size: 3.375rem; /* 54px */
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #151515;
+}
+
+.faq1 {
+    width: 68rem; /* 1088px */
+    height: 25.375rem; /* 406px */
+    border-radius: 0.3125rem; /* 5px */
+    background: #ffffff;
+}
+
+.q1 {
+    margin: 2.6875rem 0 1.5625rem 3rem; /* 43px 0 25px 48px */
+    width: 54.3125rem; /* 869px */
+    height: 1.5625rem; /* 25px */
+    font-family: "DM Sans";
+    font-size: 1.75rem; /* 28px */
+    font-weight: normal;
+    line-height: 1.75rem; /* 28px */
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.answer1 {
+    margin: 0 8.25rem 2.75rem 3rem; /* 0 132px 44px 48px */
+    width: 56.75rem; /* 908px */
+    height: 16.8125rem; /* 269px */
+    font-family: "DM Sans";
+    font-size: 1.375rem; /* 22px */
+    font-weight: normal;
+    line-height: 2.125rem; /* 34px */
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
+.faq2 {
+    padding: 2.6875rem 0 3.0625rem 3rem; /* 43px 0 49px 48px */
+    margin: 2rem 0 4.1875rem 0; /* 32px 0 67px 0 */
+    width: 68rem; /* 1088px */
+    border-radius: 0.3125rem; /* 5px */
+    background: #ffffff;
+    font-family: "DM Sans";
+    font-size: 1.75rem; /* 28px */
+    font-weight: normal;
+    line-height: 1.75rem; /* 28px */
+    font-style: normal;
+    text-align: left;
+    color: #151515;
+}
+
