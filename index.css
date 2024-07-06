@@ -39,14 +39,14 @@
 }
 
 #landing {
-    background-image: url('../export/hero-banner.png');
+    background-image: url('./export/hero-banner.png');
     background-size: cover;
     background-position: center;
 }
 
 @media screen and (max-width: 767px) {
     #landing {
-        background-image: url('../export/hero-banner-mob.png');
+        background-image: url('./export/hero-banner-mob.png');
         background-size: cover;
         background-position: center;
     }
